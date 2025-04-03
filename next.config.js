@@ -1,5 +1,3 @@
-const { i18n } = require("./next-i18next.config");
-
 const securityHeaders = [
   {
     key: "Content-Security-Policy",
@@ -43,7 +41,6 @@ const securityHeaders = [
 ];
 
 module.exports = {
-  output: "export",
   experimental: {
     forceSwcTransforms: true,
   },
@@ -60,6 +57,7 @@ module.exports = {
   },
   images: {
     domains: ["images.prismic.io"],
+    unoptimized: true,
   },
   async redirects() {
     return [
