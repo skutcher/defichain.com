@@ -96,6 +96,19 @@ export function DeFiChainEcoSystemSection(): JSX.Element {
             testID="wallets-for-defichain"
           />
           <Card
+            href="/explore/assets"
+            title={t("EcosystemSection.cards.assetsTitle")}
+            subTitle={t("EcosystemSection.cards.assetsSubtitle")}
+            customIconStyle={classNames("w-[400px] top-0", {
+              "right-0": dimensions.width > 768,
+              "right-[-8em]": dimensions.width <= 768,
+            })}
+            id="assets"
+            customTextStyle="w-[50%]"
+            testID="assets-for-defichain"
+          />
+
+          <Card
             href="/explore/masternodes"
             title={t("EcosystemSection.cards.governanceTitle")}
             subTitle={t("EcosystemSection.cards.governanceSubtitle")}

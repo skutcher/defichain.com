@@ -190,6 +190,7 @@ export function HeaderNavLinkItem({
 const iconMapping = {
   dfi: DFIIcon,
   wallet: WalletIcon,
+  asset: MediaAssetsIcon,
   github: GitHubIcon,
   invest: InvestIcon,
   masternode: MasternodeIcon,
