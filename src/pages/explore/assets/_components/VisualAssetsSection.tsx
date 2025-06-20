@@ -19,7 +19,10 @@ export function VisualAssetsSection() {
 
   return (
     <Container className="mt-[120px] md:mt-[96px] lg:mt-[240px] lg:mb-[240px] md:mb-[112px] mb-[72px] relative">
-      <div className="flex flex-col gap-y-5">
+      <article
+        id="explore-assets-section"
+        className="flex flex-col gap-y-5 lg:scroll-mt-[200px] scroll-mt-[150px]"
+      >
         <div className="flex md:justify-center justify-start">
           <SectionTitle
             text={t("visualAssetsSection.sectionTitle")}
@@ -46,7 +49,7 @@ export function VisualAssetsSection() {
         >
           {t("visualAssetsSection.subtitle")}
         </p>
-      </div>
+      </article>
 
       <div className="w-full flex-col flex items-center gap-y-16">
         {/* Download cards */}
