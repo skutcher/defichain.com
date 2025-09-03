@@ -107,19 +107,13 @@
               "title": "Reddit"
             },
             {
-              "title": "Twitter"
-            },
-            {
-              "title": "Facebook"
+                "title": "X (formerly Twitter)"
             },
             {
               "title": "GitHub"
             },
             {
               "title": "YouTube"
-            },
-            {
-              "title": "LinkedIn"
             },
             {
               "title": "Discord"
@@ -143,19 +137,25 @@
               "title": "Telegram (IT)"
             },
             {
-              "title": "Telegram (ID)"
+              "title": "Telegram (IN)"
             },
             {
               "title": "Telegram (TR)"
-            },
-            {
-              "title": "Telegram (ZH)"
             },
             {
               "title": "Telegram (RU)"
             },
             {
               "title": "Telegram (PT)"
+            },
+            {
+              "title": "Telegram (Masternodes EN)"
+            },
+            {
+              "title": "Telegram (Masternodes DE)"
+            },
+            {
+              "title": "Wiki"
             }
           ]
         }
