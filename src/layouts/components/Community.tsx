@@ -86,7 +86,7 @@ export function Community() {
             testID: "community-telegram-mn-de",
           },
           {
-            href: "https://defichainwiki.com",
+            href: "https://wiki.defichain.com",
             title: entries[1].labels[10].title,
             testID: "community-wiki",
           },
